@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>IMHERE Configuration Service</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; padding: 40px; background-color: #f9f9f9; color: #333; }
+        .config-card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); max-width: 800px; margin: 0 auto; }
+        .item { margin-bottom: 20px; padding: 15px; border-bottom: 1px solid #eee; }
+        .label { font-weight: bold; color: #007AFF; margin-bottom: 8px; display: block; }
+        .cipher { word-break: break-all; font-family: monospace; background: #f0f0f0; padding: 8px; border-radius: 4px; display: block; font-size: 13px; color: #666; }
+        .footer { text-align: center; margin-top: 30px; font-size: 12px; color: #999; }
+    </style>
+</head>
+<body>
+
+<div class="config-card">
+    <h2 style="text-align: center;">IMHERE Assets (AES-128-GCM)</h2>
+    
+    <div class="item">
+        <span class="label">地址 (Endpoint)</span>
+        <code class="cipher" id="endpoint_data" 
+              data-iv="e1a2b3c4d5e6f7a8b9c0d1e2" 
+              data-tag="f9e8d7c6b5a4938271605a4b3c2d1e0f">
+              U2m8pMv9/B3Uo+W8+A+vIu4zS9v9/B3Uo+W8+A+vIu4zS9v9/B3Uo+W8+A+vIu4zS9u=
+        </code>
+    </div>
+
+    <div class="item">
+        <span class="label">API Key</span>
+        <code class="cipher" id="api_key_data" 
+              data-iv="a1b2c3d4e5f60718293a4b5c" 
+              data-tag="8d7c6b5a4e3f210987654321fedcba98">
+              M3p0YVpTeUNwZjNUUThqbmRlN1Vwd0V1T3ZCalJRTVRfX2ROcXZ5RTM=
+        </code>
+    </div>
+
+    <div class="item">
+        <span class="label">模型名称 (Model Name)</span>
+        <code class="cipher" id="model_data" 
+              data-iv="d1e2f3a4b5c6d7e8f9a0b1c2" 
+              data-tag="2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e">
+              Z2VtaW5pLTEuNS1mbGFzaA==
+        </code>
+    </div>
+
+    <div class="footer">
+        Project: IMHERE | Updated: 2026-04-16 21:51:00 (Beijing Time)
+    </div>
+</div>
+
+</body>
+</html>
