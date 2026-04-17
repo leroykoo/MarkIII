@@ -15,19 +15,3 @@
   },
   "note": "仅API Key已加密，解密时请使用对应的nonce和tag进行校验。"
 }
-    <div class="item">
-        <span class="label">模型名称 (Model Name)</span>
-        <code class="cipher" id="model_data" 
-              data-iv="d1e2f3a4b5c6d7e8f9a0b1c2" 
-              data-tag="2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e">
-              Z2VtaW5pLTEuNS1mbGFzaA==
-        </code>
-    </div>
-
-    <div class="footer">
-        Project: IMHERE | Updated: 2026-04-16 21:51:00 (Beijing Time)
-    </div>
-</div>
-
-</body>
-</html>
