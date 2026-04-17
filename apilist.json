@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "updated_at": "2026-04-17T14:27:00+08:00",
+    "api_endpoints": [
+        {
+            "id": "air_cargo_config",
+            "name": "Air Cargo Configuration",
+            "url": "https://cdn.jsdelivr.net/gh/leroykoo/MarkIII@refs/heads/main/Aircargo.json",
+            "description": "用于获取 Aircargo 相关的物流地址或配置信息"
+        }
+    ]
+}
