@@ -1,0 +1,16 @@
+{
+  "api_metadata": {
+    "project": "IsItHere / 到了吗",
+    "service_provider": "RapidAPI",
+    "api_name": "Air Cargo Track & Trace",
+    "endpoint_url": "https://air-cargo-co2-track-and-trace.p.rapidapi.com/track",
+    "host": "air-cargo-co2-track-and-trace.p.rapidapi.com",
+    "method": "GET"
+  },
+  "security": {
+    "encryption_type": "AES-256-CBC",
+    "target_field": "x-rapidapi-key",
+    "encrypted_payload": "U2FsdGVkX19672N878E1VqO38O8H0fS/j7r5N+2VpX/8wO8oK6v6vU+3fQWk8m/V6X5L4u5B3K8m9S/6E8H0fS/j7r5N+2VpX/8wO8oK6v6vU+3fQWk8m/V6X5L4u5B3"
+  },
+  "usage_instruction": "使用密钥 leroy20260417001 进行解密后，将其填入请求头的 x-rapidapi-key 字段。"
+}
