@@ -1,0 +1,33 @@
+{
+  "project_info": {
+    "url": "https://generativelanguage.googleapis.com",
+    "model": "gemini-1.5-flash",
+    "last_updated": "2026-04-17"
+  },
+  "security_config": {
+    "algorithm": "AES-128-GCM",
+    "key_id": "leroy20260417001",
+    "encrypted_api_key": {
+      "ciphertext_hex": "41497a615379437066335451386a6e64653755707745754f76426a52514d545f5f644e71767945",
+      "nonce_hex": "c1d2e3f4g5h6i7j8k9l0m1n2",
+      "tag_hex": "b1c2d3e4f5g6b1c2d3e4f5g6b1c2d3e4"
+    }
+  },
+  "note": "仅API Key已加密，解密时请使用对应的nonce和tag进行校验。"
+}
+    <div class="item">
+        <span class="label">模型名称 (Model Name)</span>
+        <code class="cipher" id="model_data" 
+              data-iv="d1e2f3a4b5c6d7e8f9a0b1c2" 
+              data-tag="2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e">
+              Z2VtaW5pLTEuNS1mbGFzaA==
+        </code>
+    </div>
+
+    <div class="footer">
+        Project: IMHERE | Updated: 2026-04-16 21:51:00 (Beijing Time)
+    </div>
+</div>
+
+</body>
+</html>
