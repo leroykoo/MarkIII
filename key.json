@@ -1,0 +1,17 @@
+{
+  "project_info": {
+    "app_name": "App",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17"
+  },
+  "crypto_config": {
+    "algorithm": "AES-128-GCM",
+    "key_format": "utf-8",
+    "key_content": "leroy20260417001",
+    "description": "密钥长度16字节，符合AES-128位标准"
+  },
+  "server_settings": {
+    "api_timeout": 5000,
+    "is_debug_mode": true
+  }
+}
