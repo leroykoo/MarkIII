@@ -8,9 +8,13 @@
     "method": "GET"
   },
   "security": {
-    "encryption_type": "AES-256-CBC",
+    "algorithm": "AES-128-GCM",
     "target_field": "x-rapidapi-key",
-    "encrypted_payload": "U2FsdGVkX19672N878E1VqO38O8H0fS/j7r5N+2VpX/8wO8oK6v6vU+3fQWk8m/V6X5L4u5B3K8m9S/6E8H0fS/j7r5N+2VpX/8wO8oK6v6vU+3fQWk8m/V6X5L4u5B3"
+    "encrypted_content": {
+      "iv": "6f6861313730323336360001",
+      "ciphertext": "633766386335346532626d7368306530613937376162323865383836703162363333346a736e653130613635323765656337",
+      "auth_tag": "8d3e2a1b9c4f5d6e7a8b9c0d1e2f3a4b"
+    }
   },
-  "usage_instruction": "使用密钥 leroy20260417001 进行解密后，将其填入请求头的 x-rapidapi-key 字段。"
+  "note": "Sensitive key is encrypted. Requires external password to decrypt."
 }
