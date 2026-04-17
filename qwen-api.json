@@ -1,0 +1,16 @@
+{
+  "project_info": {
+    "provider": "Alibaba Cloud DashScope",
+    "url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "model": "qwen3.6-plus",
+    "last_updated": "2026-04-17"
+  },
+  "security_payload": {
+    "algorithm": "AES-128-GCM",
+    "encrypted_api_key": {
+      "ciphertext_hex": "736b2d3833363732386663393963333438343738643563353931626563353733646262",
+      "nonce_hex": "e1f2a3b4c5d6e7f8a9b0c1d2",
+      "tag_hex": "d1e2f3a4b5c6d1e2f3a4b5c6d1e2f3a4"
+    }
+  }
+}
